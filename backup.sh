@@ -2,7 +2,7 @@
 set -e
 
 backup_source="/Users/aronbeal"
-backup_target="/Volumes/Aron/HottomaliBackup"
+backup_target="/Volumes/Aron/Backup"
 backup_directories=( "Dropbox" "Desktop" "Documents" "Code" "Sites" )
 timestamp=$(date +%s)
 if [[ ! -d  ${backup_source} ]]; then
