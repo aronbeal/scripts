@@ -6,8 +6,6 @@
 set -e
 
 . $(dirname $0)/common.sh
-load_env_defaults
-assert_env_local
 
 usage() {
 	cat <<HELP_USAGE
